@@ -10,3 +10,5 @@
   - Animación a partir de adición y eliminación de clases
   - Función para reemplazar elementos a partir de una expresión regular y elementos de un objeto
   - Función para reemplazar elementos a partir de un arreglo de palabras y elementos de un objeto
+
+https://iwashux.github.io/Encriptador-de-texto/
