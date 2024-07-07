@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador - ONE</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/842507e7f1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <main>
+        <nav>
+            <div class="logo">
+                <img src="img/logo-alura.png" alt="Logo Alura">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M2 2L22 22M22 2L2 22" stroke="#0A3871" stroke-width="3.52941" stroke-linecap="round"/>
+                </svg>
+                <img src="img/logo.png" alt="My Logo">
+            </div>
+        </nav>
+
+        <section class="input">
+            <textarea name="input-text" id="input-text" placeholder="Ingrese el texto aqui"></textarea>
+
+            <section>
+                <div class="alert">
+                    <i class="fa-solid fa-circle-exclamation"></i>
+                    <p> Solo letras minúsculas y sin acentos</p>
+                </div>
+                <div class="input-buttons">
+                    <button id="encrypt" class="active">Encriptar</button>
+                    <button id="unencrypt">Desencriptar</button>
+                </div>
+            </section>
+            
+        </section>
+
+        <section class="output">
+            <img src="img/Muñeco.png" alt="Buscador de fraces">
+            <h2>Ningún mensaje fue encontrado</h2>
+            <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+            <button id="output-copy">Copiar</button>
+        </section>
+    </main>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
