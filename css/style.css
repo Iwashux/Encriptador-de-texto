@@ -171,6 +171,8 @@ main{
     main{
         flex-direction: column;
         gap: 32px;
+        min-height: 100vh;
+        overflow: auto;
     }
     
     .logo{
@@ -193,10 +195,8 @@ main{
     }
 
     main{
-        min-height: 100vh;
         padding: 40px 16px;
         gap: 0;
-        overflow: auto;
     }
 
     .logo img {
