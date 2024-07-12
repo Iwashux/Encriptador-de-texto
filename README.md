@@ -1,5 +1,7 @@
 <h1>Encriptador de texto</h1>
 
+Un pequeño reto que integraron Alura junto Oracle en su curso Oracle Next Education
+
 - Desarrollo del interfaz del proyecto (responsivo)
 - Principales usos de JS
   - Uso de funciones
